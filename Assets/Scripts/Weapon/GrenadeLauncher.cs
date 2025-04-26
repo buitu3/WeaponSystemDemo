@@ -8,8 +8,8 @@ namespace WeaponSystem
         public override void Attack()
         {
             if(!CanAttack()) return;
-            base.Attack();
             Debug.Log("Grenade Launcher Fire");
+            base.Attack();
         }
         
     }

@@ -7,8 +7,8 @@ namespace WeaponSystem
         public override void Attack()
         {
             if(!CanAttack()) return;
-            base.Attack();
             Debug.Log("Laser Gun Fire");
+            base.Attack();
         }
     }
 
